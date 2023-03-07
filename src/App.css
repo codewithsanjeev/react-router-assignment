@@ -18,14 +18,39 @@
   text-align: center;
 }
 
+.heading {
+  font-size: 2.5vw;
+}
+
 /* Site Header */
 .site-logo {
   text-align: center;
   padding: 10px 0px;
 }
 
+.site-header-design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-design {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 2vw;
+}
+
 .site-header nav {
-  padding: 10px 0px;
+  padding: 0;
 }
 .site-header nav ul {
   display: flex;
@@ -33,10 +58,11 @@
   justify-content: center;
 }
 
-.site-header nav ul li a {
+.site-header nav ul a {
   text-decoration: none;
-  padding: 20px 50px;
-  font-size: 24px;
+  padding: 20px 30px;
+  font-size: 19px;
+  text-transform: uppercase;
 }
 
 /* Site Body */
@@ -50,13 +76,44 @@
     rgba(0, 212, 255, 1) 100%
   );
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 /* Main */
 .home-hero-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home-hero-section section {
+  width: 50%;
+  gap: 10px;
+}
+
+.home-hero-section section h2 {
+  font-size: 2.5vw;
+  margin-bottom: 5px;
+}
+
+.home-hero-section section p {
+  font-size: 19px;
+  line-height: 1.35em;
+}
+
+.btn-contact {
+  text-decoration: none;
+  padding: 15px 30px;
+  background: #fff;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-hero-section img {
+  width: 50%;
 }
 
 /* Cards */
