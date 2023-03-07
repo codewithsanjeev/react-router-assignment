@@ -7,7 +7,7 @@ function Header() {
             <header className="site-header ">
                 <section className='site-logo site-width mx-auto'>
                     <section className='site-header-design'>
-                        <h1 className='logo-design'>React Router Assignment</h1>
+                        <Link to="/"> <h1 className='logo-design'>React Router Assignment</h1></Link>
                         <nav>
                             <ul>
                                 <Link to="/"><li>Home</li></Link>
