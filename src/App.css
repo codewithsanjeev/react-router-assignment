@@ -51,6 +51,13 @@
   );
   color: #fff;
 }
+/* Main */
+.home-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Cards */
 .card-section {
